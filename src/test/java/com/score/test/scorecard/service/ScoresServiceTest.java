@@ -104,7 +104,7 @@ class ScoresServiceTest {
 
         String actualMessage = exception.getMessage();
 
-        assertTrue(actualMessage.contains("Could not find user with id"));
+        assertTrue(actualMessage.contains("Could not find Score with id"));
     }
 
     @Test
@@ -152,6 +152,6 @@ class ScoresServiceTest {
 
         String actualMessage = exception.getMessage();
 
-        assertTrue(actualMessage.contains("Could not find user with id"));
+        assertTrue(actualMessage.contains("Could not find Score with id"));
     }
 }
